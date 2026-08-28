@@ -2,9 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ArrowUpRight, Sparkles } from "lucide-react";
-
-const BASE_PATH =
-  process.env.NODE_ENV === "production" ? "/sato-plantillas" : "";
+import { BASE_PATH } from "@/lib/basePath";
 
 export type Project = {
   id: string;

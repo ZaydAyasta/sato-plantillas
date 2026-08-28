@@ -4,6 +4,7 @@ import { FormEvent, useEffect, useRef, useState } from "react";
 import { ArrowUpRight, CheckCircle2, LoaderCircle, Orbit, Sparkles, UploadCloud } from "lucide-react";
 import type { Project } from "./Portfolio";
 import { projects } from "./Portfolio";
+import { BASE_PATH } from "@/lib/basePath";
 
 const CLIENT_COOLDOWN_MS = 10 * 60 * 1000;
 const STORAGE_KEY = "sato:commissionCooldownUntil";
@@ -181,7 +182,7 @@ export function CommissionForm({ reference, clearReference }: { reference: Proje
           </div>
         )}
       </form>
-      <img className="form-mascot" src="/decor/nina.png" alt="" aria-hidden="true" />
+      <img className="form-mascot" src={`${BASE_PATH}/decor/nina.png`} alt="" aria-hidden="true" />
       <span className="form-mascot-note" aria-hidden="true">idea recibida ✦</span>
     </section>
   );

@@ -1,4 +1,5 @@
 import { ArrowUpRight, MessageCircle, Sparkles } from "lucide-react";
+import { BASE_PATH } from "@/lib/basePath";
 
 export function CommissionCTA() {
   const discordInvite = process.env.NEXT_PUBLIC_DISCORD_INVITE_URL || "#contacto";
@@ -19,7 +20,7 @@ export function CommissionCTA() {
         </div>
       </div>
       <Sparkles className="paper-star" size={32}/>
-      <img className="discordo-sticker" src="/decor/discordo.png" alt="" aria-hidden="true" />
+      <img className="discordo-sticker" src={`${BASE_PATH}/decor/discordo.png`} alt="" aria-hidden="true" />
     </section>
   );
 }

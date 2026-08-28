@@ -3,6 +3,7 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import type { Project } from "./Portfolio";
+import { BASE_PATH } from "@/lib/basePath";
 
 export function SelectedProject({ project, onSimilar, onBlank }: { project: Project; onSimilar: () => void; onBlank: () => void }) {
   return (
@@ -28,7 +29,7 @@ export function SelectedProject({ project, onSimilar, onBlank }: { project: Proj
             <span className="selected-scanline" aria-hidden="true" />
           </div>
           <div className="selected-info">
-            <img className="selected-spiral" src="/decor/espiral.png" alt="" aria-hidden="true" />
+            <img className="selected-spiral" src={`${BASE_PATH}/decor/espiral.png`} alt="" aria-hidden="true" />
             <p className="micro">PROYECTO DESTACADO</p>
             <h2>{project.name.toUpperCase()}</h2>
             <p className="selected-type">Discord Server Banner</p>

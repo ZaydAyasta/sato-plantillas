@@ -1,5 +1,6 @@
 import { ArrowDown, ArrowUpRight, Sparkles } from "lucide-react";
 import { MoonDecoration } from "./Decorations";
+import { BASE_PATH } from "@/lib/basePath";
 
 export function Hero() {
   return (
@@ -12,10 +13,10 @@ export function Hero() {
           <a className="text-link" href="#trabajos">Ver trabajos <ArrowDown size={17}/></a>
           <a className="button" href="#solicitar">Solicitar banner <ArrowUpRight size={17}/></a>
         </div>
-        <img className="hero-star-sticker" src="/decor/estrella.png" alt="" aria-hidden="true" />
+        <img className="hero-star-sticker" src={`${BASE_PATH}/decor/estrella.png`} alt="" aria-hidden="true" />
       </div>
       <MoonDecoration />
-      <img className="hero-spiral-sticker" src="/decor/espiral.png" alt="" aria-hidden="true" />
+      <img className="hero-spiral-sticker" src={`${BASE_PATH}/decor/espiral.png`} alt="" aria-hidden="true" />
     </section>
   );
 }
