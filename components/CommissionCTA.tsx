@@ -1,5 +1,5 @@
 import { ArrowUpRight, MessageCircle, Sparkles } from "lucide-react";
-import { BASE_PATH } from "@/lib/basePath";
+import { BASE_PATH } from "../lib/basePath";
 
 export function CommissionCTA() {
   const discordInvite = process.env.NEXT_PUBLIC_DISCORD_INVITE_URL || "#contacto";

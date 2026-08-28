@@ -1,6 +1,6 @@
 import { ArrowDown, ArrowUpRight, Sparkles } from "lucide-react";
 import { MoonDecoration } from "./Decorations";
-import { BASE_PATH } from "@/lib/basePath";
+import { BASE_PATH } from "../lib/basePath";
 
 export function Hero() {
   return (

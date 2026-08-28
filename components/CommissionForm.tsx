@@ -4,7 +4,7 @@ import { FormEvent, useEffect, useRef, useState } from "react";
 import { ArrowUpRight, CheckCircle2, LoaderCircle, Orbit, Sparkles, UploadCloud } from "lucide-react";
 import type { Project } from "./Portfolio";
 import { projects } from "./Portfolio";
-import { BASE_PATH } from "@/lib/basePath";
+import { BASE_PATH } from "../lib/basePath";
 
 const CLIENT_COOLDOWN_MS = 10 * 60 * 1000;
 const STORAGE_KEY = "sato:commissionCooldownUntil";

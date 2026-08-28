@@ -3,7 +3,7 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import type { Project } from "./Portfolio";
-import { BASE_PATH } from "@/lib/basePath";
+import { BASE_PATH } from "../lib/basePath";
 
 export function SelectedProject({ project, onSimilar, onBlank }: { project: Project; onSimilar: () => void; onBlank: () => void }) {
   return (

@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ArrowUpRight, Sparkles } from "lucide-react";
-import { BASE_PATH } from "@/lib/basePath";
+import { BASE_PATH } from "../lib/basePath";
 
 export type Project = {
   id: string;
