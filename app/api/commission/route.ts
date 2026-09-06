@@ -51,9 +51,24 @@ function pruneRateLimit(cooldownMs: number) {
   }
 }
 
+function isDiscordWebhookUrl(value: string) {
+  try {
+    const url = new URL(value);
+    const discordHosts = new Set(["discord.com", "canary.discord.com", "ptb.discord.com"]);
+
+    return (
+      url.protocol === "https:" &&
+      discordHosts.has(url.hostname) &&
+      /^\/api\/webhooks\/\d+\/[^/\s]+\/?$/.test(url.pathname)
+    );
+  } catch {
+    return false;
+  }
+}
+
 export async function POST(request: NextRequest) {
   const webhookUrl = process.env.DISCORD_WEBHOOK_URL?.trim();
-  if (!webhookUrl) {
+  if (!webhookUrl || !isDiscordWebhookUrl(webhookUrl)) {
     return NextResponse.json(
       { ok: false, message: "El formulario todavía no tiene configurado el webhook de Discord." },
       { status: 503 },
