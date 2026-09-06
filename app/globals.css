@@ -211,6 +211,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 }
 .fields textarea { grid-column: 1 / -1; min-height: 92px; resize: vertical; }
 .fields select { grid-column: 2 / -1; color-scheme: dark; }
+.fields select option { background-color: #1c161f; color: var(--cream); }
 .fields input:focus, .fields textarea:focus, .fields select:focus { border-color: var(--accent); background: rgba(164,119,196,.035); }
 .reference-chip { grid-column: 1 / -1; justify-self: start; background: rgba(164,119,196,.11); color: var(--accent-pale); border: 1px solid rgba(164,119,196,.38); padding: 7px 10px; cursor: pointer; font-size: 12px; }
 .upload-zone { min-height: 198px; border: 1px dashed rgba(164,119,196,.7); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; text-align: center; cursor: pointer; color: var(--cream); }
