@@ -17,10 +17,11 @@ globalRate.__satoCommissionRateLimit = rateLimit;
 
 const projectNames: Record<string, string> = {
   "001": "Sato Plantillas",
-  "002": "Tou Mei",
-  "003": "Mushouko",
-  "004": "Kyougen",
-  "005": "Maura World",
+  "002": "Mushoku Tensei",
+  "003": "Kyougen",
+  "004": "Maura World",
+  "005": "Noxx's Reef",
+  // Fallbacks for previous numbering
   "006": "Noxx's Reef",
 };
 

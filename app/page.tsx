@@ -15,7 +15,7 @@ function scrollToForm() {
 }
 
 export default function Home() {
-  const [selected, setSelected] = useState<Project>(projects[3]);
+  const [selected, setSelected] = useState<Project>(projects.find((p) => p.name === "Kyougen") ?? projects[0]);
   const [reference, setReference] = useState<Project | null>(null);
 
   const selectProject = (project: Project) => {

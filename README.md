@@ -92,7 +92,6 @@ Solo reemplaza los archivos dentro de `public/portfolio/` conservando los mismos
 
 ```text
 001-sato.png
-002-tou-mei.png
 003-mushouko.png
 004-kyougen.png
 005-maura.png

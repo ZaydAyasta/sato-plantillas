@@ -21,37 +21,28 @@ export const projects: Project[] = [
     image: `${BASE_PATH}/portfolio/001-sato.png`,
     style: "Anime / Character / Warm",
     description:
-      "Banner editorial y cálido para una comunidad centrada en plantillas y cultura anime.",
+      "Banner diseñado para el servidor de Sato Plantillas, combinando una estética warm e ilustración temática de Luka (Alien Stage) junto a Pompompurin (Sanrio). Se desarrolló una composición suave en tonos amarillo pastel y café cálido, destacando la información clave de la comunidad: canal de búsqueda, sistema de alianzas (+70 sv) etc.",
   },
   {
     id: "002",
-    name: "Tou Mei",
-    meta: "Cute / Community",
-    image: `${BASE_PATH}/portfolio/002-tou-mei.png`,
-    style: "Cute / Playful / Light blue",
-    description:
-      "Identidad divertida y ligera construida alrededor de una estética azul, personajes y stickers.",
-  },
-  {
-    id: "003",
-    name: "Mushouko",
+    name: "Mushoku Tensei",
     meta: "Community",
     image: `${BASE_PATH}/portfolio/003-mushouko.png`,
     style: "Soft / Character / Nature",
     description:
-      "Composición suave y orgánica con tipografía protagonista y una paleta inspirada en naturaleza.",
+      "Banner diseñado a creatividad libre a partir del personaje Sylphiette. Se desarrolló una composición orgánica inspirada en la naturaleza, con tipografía destacada en tonos verdes y crema, dando vida a una estética suave y acogedora para la comunidad.",
   },
   {
-    id: "004",
+    id: "003",
     name: "Kyougen",
     meta: "Anime / Dark",
     image: `${BASE_PATH}/portfolio/004-kyougen.png`,
     style: "Anime / Collage / Dark blue",
     description:
-      "Banner personalizado diseñado alrededor de la identidad visual y temática de la comunidad.",
+      'Banner diseñado a medida para el servidor temático de Ado. Se desarrolló una composición en estilo Collage / Dark blue con estética rebelde, destacando una tipografía fuerte e irregular para el título principal "Kyougen" y una tipografía más limpia para el texto secundario ("sfw + ntox / ADO, la diosa del J-POP"). El diseño integra de forma protagónica la ilustración de Ado junto a sus referencias más icónicas: su característico personaje (Ha-chan), la rosa azul y detalles estilo sticker que capturan perfectamente la esencia de la artista.',
   },
   {
-    id: "005",
+    id: "004",
     name: "Maura World",
     meta: "Character",
     image: `${BASE_PATH}/portfolio/005-maura.png`,
@@ -60,13 +51,13 @@ export const projects: Project[] = [
       "Una composición de alto contraste con personaje central, lettering grande y detalles de comunidad.",
   },
   {
-    id: "006",
+    id: "005",
     name: "Noxx's Reef",
     meta: "Aquatic",
     image: `${BASE_PATH}/portfolio/006-noxx.png`,
     style: "Aquatic / Colorful / Character",
     description:
-      "Banner acuático dinámico, lleno de detalles gráficos y una mascota como punto focal.",
+      "Banner diseñado a medida para el servidor de plantillas Noxx's Reef, inspirado en un concepto acuático y fantástico. Se desarrolló una composición en tonos azul y celeste centrada en un arrecife submarino con corales, burbujas y destellos de agua. El diseño cuenta con Jeff the Land Shark como personaje principal, acompañado de pequeños stickers ilustrados a su alrededor.",
   },
 ];
 
