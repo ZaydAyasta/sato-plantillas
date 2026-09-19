@@ -21,7 +21,7 @@ export const projects: Project[] = [
     image: `${BASE_PATH}/portfolio/001-sato.png`,
     style: "Anime / Character / Warm",
     description:
-      "Banner diseñado para el servidor de Sato Plantillas, combinando una estética warm e ilustración temática de Luka (Alien Stage) junto a Pompompurin (Sanrio). Se desarrolló una composición suave en tonos amarillo pastel y café cálido, destacando la información clave de la comunidad: canal de búsqueda, sistema de alianzas (+70 sv) etc.",
+      "Banner para servidor de plantillas diseñado en una paleta warm de amarillos pastel y café cálido. Presenta una colaboración estética entre Luka (Alien Stage) y Pompompurin, e integra la información clave de la comunidad: canal de búsqueda, alianzas con +70 servidores y un mensaje de invitación.",
   },
   {
     id: "002",
@@ -30,7 +30,7 @@ export const projects: Project[] = [
     image: `${BASE_PATH}/portfolio/003-mushouko.png`,
     style: "Soft / Character / Nature",
     description:
-      "Banner diseñado a creatividad libre a partir del personaje Sylphiette. Se desarrolló una composición orgánica inspirada en la naturaleza, con tipografía destacada en tonos verdes y crema, dando vida a una estética suave y acogedora para la comunidad.",
+      "Banner elaborado a creatividad libre tomando a Sylphiette como personaje principal. Desarrolla un concepto Soft / Nature inspirado en la naturaleza, usando tonos verdes y crema, texturas orgánicas de papel, tipografía destacada y una llamada a unirse a la historia del servidor.",
   },
   {
     id: "003",
@@ -39,7 +39,7 @@ export const projects: Project[] = [
     image: `${BASE_PATH}/portfolio/004-kyougen.png`,
     style: "Anime / Collage / Dark blue",
     description:
-      'Banner diseñado a medida para el servidor temático de Ado. Se desarrolló una composición en estilo Collage / Dark blue con estética rebelde, destacando una tipografía fuerte e irregular para el título principal "Kyougen" y una tipografía más limpia para el texto secundario ("sfw + ntox / ADO, la diosa del J-POP"). El diseño integra de forma protagónica la ilustración de Ado junto a sus referencias más icónicas: su característico personaje (Ha-chan), la rosa azul y detalles estilo sticker que capturan perfectamente la esencia de la artista.',
+      'Banner de estilo Collage / Dark Blue para el servidor temático de Ado. Destaca una tipografía fuerte e irregular para el título "Kyougen", combinando a la artista como figura central junto a sus elementos más representativos: Ha-chan, la rosa azul y detalles estilo sticker.',
   },
   {
     id: "004",
@@ -57,7 +57,7 @@ export const projects: Project[] = [
     image: `${BASE_PATH}/portfolio/006-noxx.png`,
     style: "Aquatic / Colorful / Character",
     description:
-      "Banner diseñado a medida para el servidor de plantillas Noxx's Reef, inspirado en un concepto acuático y fantástico. Se desarrolló una composición en tonos azul y celeste centrada en un arrecife submarino con corales, burbujas y destellos de agua. El diseño cuenta con Jeff the Land Shark como personaje principal, acompañado de pequeños stickers ilustrados a su alrededor.",
+      'Banner de concepto acuático diseñado para un servidor de plantillas, ambientado en un arrecife fantástico en tonos azul y celeste con corales y burbujas. Protagonizado por Jeff the Land Shark junto a sus mini-stickers, e incluye el título "Noxx\'s Reef" con el subtítulo "ntox - plantillas - Jeff".',
   },
 ];
 
